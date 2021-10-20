@@ -45,6 +45,7 @@ body {
 }
 
 .btn {
+  display: inline-block;
   background-color: #F5170E;
 
   border-radius: 35px;
@@ -61,6 +62,25 @@ body {
 
 .header {
   color: #fff;
+  position: relative;
+  padding-top: 45px;
+}
+
+.menu__list {
+  padding: 0;
+  position: absolute;
+  left: 300px;
+  top: 38px;
+
+}
+
+.menu__item {
+  display: inline;
+  padding-right: 54px;
+}
+
+.menu__item:last-child{
+  padding-right: 0px;
 }
 
 .menu__link{
@@ -69,12 +89,11 @@ body {
   text-decoration: none;
 }
 
-.menu__list {
-  padding: 0;
-}
-
 .contacts {
   color: #fff;
+  position: absolute;
+  right: 30px;
+  top: 42px;
 }
 
 .contacts__phone {
@@ -85,9 +104,16 @@ body {
 
 .contacts__work {
   font-size: 13px;
+  text-align: right;
+  margin: 0;
 }
 
 /*=============author=============*/
+
+.author {
+  max-width: 511px;
+  margin-top: 131px;
+}
 
 .author__content-wrap {
   color: #fff;
@@ -102,64 +128,155 @@ body {
 
 .author__text {
   font-size: 18px;
+  margin-top: 30px;
 }
 
+.author__btn {
+  margin-top: 20px;
+}
 
 .subtitle {
   color: #fff;
   font-size: 36px;
   font-weight: 700;
+  margin-bottom: 45px;
 }
 
-.tours__title {
+.tour__title-wrap {
   position: relative;
 }
 
 .tours__icon {
   position: absolute;
-  top:450px;
-  left: 665px;
+  bottom: -220px;
+  left: 700px;
 }
 
 /*=============tours=============*/
 
-.tours__list {
-  background-color: #fff;
-  padding: 0;
+.tours {
+  margin-top: 246px;
 }
+
+.tours__list {
+  padding: 0px;
+  margin: 0px;
+
+}
+
+.tours__wrap {
+  display: inline-block;
+  width: 362px;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-left: 20px;
+}
+
+.tours__wrap:first-child {
+  margin-left: 0px;
+}
+
+.tour__image {
+  border-radius: 10px 10px 0px 0px;
+}
+
 
 .tour__title {
   color: #000;
   font-size: 24px;
   font-weight: 700;
+
+  padding-left: 28px;
+}
+
+.service {
+  padding: 0px 28px;
+  
+}
+
+.service__item {
+  display: inline-block;
+  padding-left: 28px;
+}
+
+.service__item:first-child {
+  padding-left: 0px;
+}
+
+.service__icon {
+  display: inline-block;
+}
+
+.service__days {
+  display: inline;
+}
+
+.service__breakfasts {
+  display: inline;
 }
 
 .desc-tours__text {
   font-size: 14px;
+  padding: 20px;
+
+  padding-left: 28px;
 }
 
 .tour-btn {
+    display: inline-block;
     background-color: #fff;
     border: 1px solid #F5170E;
 
     color: #F5170E;
 
     padding: 18px 30px;
+    margin: 20px  ;
 }
 
 .btn--active {
+  display: inline-block;
   background-color: #F5170E;
   color: #fff;
 }
 
 /*=============news=============*/
 
+.news {
+  margin-top: 127px;
+}
+
 .news__list {
   padding: 0;
+  margin: 0;
 }
 
 .news__item {
   color: #fff;
+}
+
+.news__wrap {
+  display: inline-block;
+  position: relative;
+  margin-left: 20px;
+}
+
+.news__wrap:first-child {
+  margin: 0px;
+}
+
+.news__image-wrap {
+  z-index: 10;
+}
+
+.news__image {
+  border-radius: 5px;
+}
+
+.news__content-wrap {
+  position: absolute;
+  top: 245px;
+  z-index: 0;
+  padding-left: 31px;
 }
 
 .news__data {
@@ -169,24 +286,60 @@ body {
 .news__subtitle {
   font-size: 24px;
   font-weight: 700;
+  margin: 0px;
+}
+
+.news__text {
+  margin-top: 0px;
 }
 
 /*=============paginator=============*/
 
 .paginator {
   color: #fff;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.paginator__display {
+  display: inline-block;
+  padding-right: 20px;
 }
 
 .paginator__list {
+  display: inline-block;
   padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.paginator__item {
+  display: inline-block;
+  margin-left: 8px;
 }
 
 .paginator__link {
+  display: inline-block;
   text-decoration: none;
   color: #fff;
+  width: 15px;
+  height: 15px;
+  font-weight: 700;
+  padding: 8px;
 }
 
+.paginator__link:hover {
+  border-radius: 50%;
+  background-color: #fff;
+  color: #F5170E;
+}
+
+
 /*=============about=============*/
+
+.about {
+  margin-top: 124px;
+}
 
 .abouts__title {
   font-size: 36px;
