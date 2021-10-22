@@ -34,17 +34,20 @@ body {
   background-image: url("image/bg1.jpg");
   background-repeat: no-repeat;
   background-position: center top;
+  background-size: cover;
 }
 
 .bg-2 {
   background-image: url("image/bg2.jpg");
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: center bottom;
+  
 }
 
 .wrapper {
-  max-width: 1140px;
+  max-width: 1170px;
   margin: 0 auto;
+  padding: 0px 15px;
 }
 
 .list-style {
@@ -357,13 +360,21 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   right: 0;
   bottom: 0;
-  padding:  25px 30px;
   min-height: 150px;
+  padding: 31px 30px;
+}
+
+.news__content-wrap-2 {
+  padding: 9px 30px;
+  
+}
+
+.news__content-wrap-2 p {
+  margin: 0;
 }
 
 .news__data {
   font-size: 14px; 
-  margin-top: 34px;
 }
 
 .news__subtitle {
