@@ -1,0 +1,29 @@
+.footer-container__content {
+  border-top: 1px solid rgba(255, 255, 255, .10);
+}
+
+.footer {
+  height: 150px;
+  position: relative;
+  color: #fff;
+}
+.menu-footer {
+  top: 56px;
+  left: 162px;
+}
+
+.contacts-footer {
+  margin-top: 10px;
+}
+
+.contacts__footer-work {
+  text-decoration: none;
+  margin-bottom: 2px;
+  font-size: 11px;
+  color: #9A9A9A;
+  text-align: right;
+}
+
+.contacts__footer-phone {
+  margin-top: 10px;
+}

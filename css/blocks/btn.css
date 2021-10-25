@@ -1,0 +1,13 @@
+.btn {
+  display: inline-block;
+  background-color: #F5170E;
+
+  border-radius: 35px;
+  padding: 18px 40px;
+  
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none; 
+  color:#fff;
+}

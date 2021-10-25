@@ -1,0 +1,145 @@
+.subtitle {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.tours__title {
+  position: relative;
+}
+
+.tours__title::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  background: url("../../image/tours/flame.png");
+  width: 21px;
+  height: 28px;
+  top: 13px;
+  left: 287px;
+}
+
+/*=============tours=============*/
+
+.tours {
+  margin-bottom: 127px;
+}
+
+
+.tours__wrap {
+  display: inline-block;
+  width: 362px;
+  min-height: 449px;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-left: 22px;
+}
+
+.tours__wrap:first-child {
+  margin-left: 0px;
+}
+
+.tour__image-wrap {
+  min-height: 144px;
+  margin-bottom: 28px;
+}
+
+.tour__image {
+  border-radius: 5px 5px 0px 0px;
+}
+
+.tour__content {
+  padding-left: 22px;
+  color: #000;
+}
+
+
+.tour__title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.service {
+  margin-bottom: 27px;
+}
+
+.service__item {
+  display: inline-block;
+  vertical-align: top;
+  width: 150px;
+  margin-right: 10px;
+  position: relative;
+}
+
+.service__item:last-child {
+  margin-right: 0;
+} 
+
+
+.service__days {
+  display: inline-block;
+  margin: 0;
+  padding-left: 42px;
+}
+
+.service__days::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background-image: url("../../image/tours/calendar.png");
+  width: 26px;
+  height: 26px;
+  top: -3px;
+  left: 5px;
+}
+
+.service__breakfasts {
+  display: inline-block;
+  margin: 0;
+  padding-left: 40px;
+}
+
+.service__breakfasts::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background-image: url("../../image/tours/meal.png");
+  width: 36px;
+  height: 36px;
+  top: -3px;
+  left: -4px;
+}
+
+
+.desc-tours {
+  margin-bottom: 27px;
+}
+
+.desc-tours__text {
+  font-size: 14px;
+  margin: 0;
+}
+
+.tour-btn {
+  display: inline-block;
+  background-color: #fff;
+  border: 1px solid #F5170E;
+
+  color: #F5170E;
+
+  padding: 18px 30px;
+  transition: 0.3s ease;
+}
+
+.tour-btn:hover {
+  background-color: #F5170E;
+  color: #fff;;
+}
+
+.btn--active {
+  display: inline-block;
+  background-color: #F5170E;
+  color: #fff;
+}

@@ -1,0 +1,60 @@
+
+.socials__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.socials__item:last-child {
+  margin-right: 0;
+}
+
+.socials {
+  top: 52px;
+  right: 254px;
+  position: absolute;
+}
+
+.socials__link {
+  display: block;
+  text-decoration: none;
+  width: 36px;
+  height: 36px;
+  background: center center no-repeat;
+}
+
+.socials__item--icon--telega .socials__link {
+  background-image: url("../../image/social/telegram.png");
+}
+
+
+.socials__item--icon--telega .socials__link:hover {
+  background-image: url("../../image/social/telega-hover.png");
+}
+
+.socials__item--icon--vk .socials__link {
+  background-image: url("../../image/social/vk.png");
+}
+
+
+.socials__item--icon--vk .socials__link:hover {
+  background-image: url("../../image/social/vk-hover.png");
+}
+
+.socials__item--icon--fb .socials__link {
+  background-image: url("../../image/social/facebook.png");
+}
+
+
+.socials__item--icon--fb .socials__link:hover {
+  background-image: url("../../image/social/fb-hover.png");
+}
+
+.socials__item--icon--insta .socials__link {
+  background-image: url("../../image/social/insta.png");
+}
+
+
+.socials__item--icon--insta .socials__link:hover {
+  background-image: url("../../image/social/insta-hover.png");
+}
