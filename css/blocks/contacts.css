@@ -1,23 +1,20 @@
 
 .contacts {
   font-style: normal;
-  position: absolute;
-  top: 42px;
-  right: 0px;
+  margin-top: 6px
 }
 
 .contacts__phone {
   font-size: 26px;
   text-decoration: none;
   color: #fff;
-  margin-bottom: 4px;
 }
 
 .contacts__dropdown-work {
   font-size: 13px;
   text-align: right;
   text-decoration: underline;
-  margin-top: -7px;
+  margin-top: -6px;
   transition: 0.3s ease;
   color: #98A4A8;
 }

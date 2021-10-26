@@ -3,6 +3,7 @@
   font-size: 36px;
   font-weight: 700;
   margin-bottom: 50px;
+  letter-spacing: 2px;
 }
 
 .tours__title {
@@ -26,19 +27,19 @@
   margin-bottom: 127px;
 }
 
+.tours__list {
+  display: flex;
+  justify-content: space-between;
+}
+
 
 .tours__wrap {
-  display: inline-block;
   width: 362px;
   min-height: 449px;
-  border-radius: 10px;
+  border-radius: 5px;
   background-color: #fff;
-  margin-left: 22px;
 }
 
-.tours__wrap:first-child {
-  margin-left: 0px;
-}
 
 .tour__image-wrap {
   min-height: 144px;
@@ -46,11 +47,15 @@
 }
 
 .tour__image {
+  display: block;
+  width: 100%;
   border-radius: 5px 5px 0px 0px;
 }
 
 .tour__content {
   padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 5px;
   color: #000;
 }
 
@@ -58,78 +63,55 @@
 .tour__title {
   font-size: 24px;
   font-weight: 700;
-  margin-bottom: 24px;
+  margin-bottom: 7px;
+  letter-spacing: 1px;
 }
 
 .service {
   margin-bottom: 27px;
-}
-
-.service__item {
-  display: inline-block;
-  vertical-align: top;
-  width: 150px;
-  margin-right: 10px;
-  position: relative;
+  display: flex;
+  margin-bottom: 0px;
 }
 
 .service__item:last-child {
   margin-right: 0;
 } 
 
-
 .service__days {
-  display: inline-block;
-  margin: 0;
-  padding-left: 42px;
-}
-
-.service__days::before {
-  content: "";
-  display: block;
-  position: absolute;
   background-image: url("../../image/tours/calendar.png");
-  width: 26px;
-  height: 26px;
-  top: -3px;
-  left: 5px;
+  background-repeat: no-repeat;
+  background-position: center left;
+  padding-left: 36px;
+  margin-left: 6px;
+  margin-right: 29px;
+  letter-spacing: 1px;
 }
 
 .service__breakfasts {
-  display: inline-block;
-  margin: 0;
-  padding-left: 40px;
-}
-
-.service__breakfasts::before {
-  content: "";
-  display: block;
-  position: absolute;
   background-image: url("../../image/tours/meal.png");
-  width: 36px;
-  height: 36px;
-  top: -3px;
-  left: -4px;
+  background-repeat: no-repeat;
+  background-position: center left;
+  padding-left: 42px;
+  letter-spacing: 1px;
 }
 
-
-.desc-tours {
-  margin-bottom: 27px;
-}
-
-.desc-tours__text {
+.desc-tours p {
   font-size: 14px;
-  margin: 0;
+  letter-spacing: 0.5px;
+  margin-top: 11px;
+  margin-bottom: 21px;
+  line-height: 1.5;
 }
 
 .tour-btn {
   display: inline-block;
   background-color: #fff;
   border: 1px solid #F5170E;
+  text-align: center;
 
   color: #F5170E;
 
-  padding: 18px 30px;
+  padding: 18px 28px;
   transition: 0.3s ease;
 }
 

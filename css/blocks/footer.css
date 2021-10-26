@@ -3,17 +3,16 @@
 }
 
 .footer {
-  height: 150px;
-  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   color: #fff;
+  padding-top: 47px;
+  padding-bottom: 47px;
 }
-.menu-footer {
-  top: 56px;
-  left: 162px;
-}
-
-.contacts-footer {
-  margin-top: 10px;
+.menu__list-footer {
+  display: flex;
+  margin-right: 115px;
 }
 
 .contacts__footer-work {

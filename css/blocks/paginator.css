@@ -1,22 +1,17 @@
 .paginator {
+  display: flex;
+  justify-content: center;
   color: #fff;
   text-align: center;
   margin-bottom: 146px;
 }
 
-.paginator__display, .paginator__list {
-  display: inline-block;
-  vertical-align: middle;
-}
-
 .paginator__display {
-  margin-right: 25px;
+  margin-right: 30px;
 }
 
-
-.paginator__item {
-  display: inline-block;
-  vertical-align: middle;
+.paginator__list {
+  display: flex;
 }
 
 .paginator__item--active .paginator__link {
@@ -29,7 +24,6 @@
   width: 32px;
   height: 32px;
   border-radius: 50%;
-  position: relative;
   text-decoration: none;
   color: #fff;
   font-weight: 700;

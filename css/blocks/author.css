@@ -4,12 +4,19 @@
   margin-bottom: 246px;
 }
 
-.author__title {
+.author__content-wrap h1 {
   font-size: 72px;
   font-weight: 700;
   line-height: 1.4;
+  letter-spacing: 2px;
 
   margin-bottom: 24px;
+}
+
+.author__content-wrap p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  letter-spacing: 0.5px;
 }
 
 .author__btn {
@@ -18,9 +25,4 @@
 
 .author__btn:hover {
   background-color: #DA0100;
-}
-
-.author__text {
-  font-size: 18px;
-  margin-bottom: 30px;
 }
