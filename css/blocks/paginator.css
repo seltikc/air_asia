@@ -3,15 +3,35 @@
   justify-content: center;
   color: #fff;
   text-align: center;
+  align-items: center;
   margin-bottom: 146px;
 }
 
 .paginator__display {
   margin-right: 30px;
+
+}
+
+.paginator__display-services {
+  color: #000;
 }
 
 .paginator__list {
   display: flex;
+}
+
+.paginator__list-services .paginator__link {
+  color: #000;
+}
+
+.paginator__list-services .paginator__item--active .paginator__link {
+  background-color: #F5170E;
+  color: #fff;
+}
+
+.paginator__list-services .paginator__link:hover {
+  background-color: #F5170E;
+  color: #fff;
 }
 
 .paginator__item--active .paginator__link {

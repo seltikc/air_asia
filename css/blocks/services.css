@@ -1,0 +1,39 @@
+.services {
+  display: flex;
+  gap: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.services__img-wrap {
+  width: 460px;
+  min-height: 333px;
+}
+
+.services__image {
+  height: 100%;
+  object-fit: contain;
+}
+
+.services__btn {
+  padding: 18px 40px;
+  display: inline-block;
+  background-color: #fff;
+  border: 1px solid #F5170E;
+  text-align: center;
+  color: #F5170E;
+  transition: 0.3s ease;
+}
+
+.services__btn:hover {
+  display: inline-block;
+  background-color: #F5170E;
+  color: #fff;
+}
+
+.service__btn--active {
+  display: inline-block;
+  background-color: #F5170E;
+  color: #fff;
+}
+

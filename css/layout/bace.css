@@ -35,7 +35,11 @@ body {
   background-image: url("../../image/bg/bg2.jpg");
   background-repeat: no-repeat;
   background-position: center bottom;
-  
+}
+
+.bg-service {
+  background: url("../../image/bg/headline.jpg") center top no-repeat;
+  min-height: 412px;
 }
 
 .wrap {

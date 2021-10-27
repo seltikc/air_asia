@@ -1,0 +1,32 @@
+
+.breadcrumbs__list {
+  display: flex;
+  position: relative;
+}
+
+.breadcrumbs__item {
+  margin-right: 20px;
+}
+
+.breadcrumbs__item-wand::after {
+  content: "";
+  display: block;
+  height: 15px;
+  background-color: #9A9A9A;
+  width: 1px;
+  position: absolute;
+  top: 4px;
+  left: 65px;
+  transform: rotate(20deg);
+}
+
+
+.breadcrumbs__link {
+  color: #9A9A9A;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.breadcrumbs__link--active {
+  font-weight: 700;
+}

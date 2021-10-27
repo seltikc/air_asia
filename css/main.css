@@ -15,6 +15,11 @@
 @import url("./blocks/social.css");
 @import url("./blocks/footer.css");
 
+/*Services*/
+@import url("./blocks/breadcrumbs.css");
+@import url("./blocks/services.css");
+
+
 
 
 
