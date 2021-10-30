@@ -2,14 +2,16 @@
   display: flex;
   justify-content: center;
   color: #fff;
-  text-align: center;
   align-items: center;
   margin-bottom: 146px;
 }
 
 .paginator__display {
   margin-right: 30px;
+}
 
+.paginator__item {
+  text-align: center;
 }
 
 .paginator__display-services {
@@ -18,6 +20,7 @@
 
 .paginator__list {
   display: flex;
+  align-items: center;
 }
 
 .paginator__list-services .paginator__link {

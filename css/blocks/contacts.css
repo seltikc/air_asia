@@ -1,7 +1,8 @@
 
 .contacts {
+  display: flex;
+  flex-direction: column;
   font-style: normal;
-  margin-top: 6px
 }
 
 .contacts__phone {
@@ -10,16 +11,15 @@
   color: #fff;
 }
 
-.contacts__dropdown-work {
+.contacts span {
   font-size: 13px;
   text-align: right;
   text-decoration: underline;
-  margin-top: -6px;
   transition: 0.3s ease;
   color: #98A4A8;
 }
 
-.contacts__dropdown-work:hover {
+.contacts span:hover {
   color: #fff;
   cursor: pointer;
 }

@@ -1,6 +1,18 @@
+.container-athor {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-athor {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 333px;
+}
+
 .author {
   color: #fff;
-  max-width: 511px;
+  width:  45%;
   margin-bottom: 246px;
 }
 

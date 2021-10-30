@@ -5,47 +5,52 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="css/layout/normalize.css">
   <link rel="stylesheet" href="css/main.css">
   <title>Air Asia</title>
 </head>
 
 <body>
-  <div class="wrap">
     <div class="wrap__content">
-      <div class="bg-service bg-dark">
-        <div class="container">
-          <header class="header">
-            <a href="#" class="logo">
-              <img class="logo__img" src="image/logo.png" alt="Logo">
-            </a>
-            <nav class="menu">
-              <ul class="menu__list ">
-                <li class="menu__item"><a href="index.html" class="menu__link">Главная</a></li>
-                <li class="menu__item"><a href="services.html" class="menu__link">Услуги</a></li>
-                <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
+      <div class="top-line">
+        <div class="bg-service">
+          <div class="container top-line__container">
+            <header class="header">
+              <div class="header__column">
+                  <a href="index.html" class="logo">
+                    <img class="logo__img" src="image/logo.png" alt="Logo">
+                  </a>
+                  <nav class="menu">
+                    <ul class="menu__list ">
+                      <li class="menu__item"><a href="index.html" class="menu__link">Главная</a></li>
+                      <li class="menu__item"><a href="services.html" class="menu__link">Услуги</a></li>
+                      <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
+                    </ul>
+                  </nav>
+              </div>
+                <div class="header__column header__column--align--right">
+                  <address class="contacts">
+                    <a class="contacts__phone" href="tel:+78007003030">8 800 700 30 30</a>
+                    <span>График работы</span>
+                  </address>
+                </div>
+            </header> 
+            <div class="author__content-wrap">
+              <h1>Услуги</h1>
+            </div>
+            <nav class="breadcrumbs">
+              <ul class="breadcrumbs__list">
+                <li class="breadcrumbs__item">
+                  <a href="index.html" class="breadcrumbs__link">Главная</a>
+                </li>
+                <li class="breadcrumbs__item breadcrumbs__item--active">
+                  <a href="services.html" class="breadcrumbs__link breadcrumbs__link--active">Услуги</a>
+                </li>
               </ul>
             </nav>
-            <address class="contacts">
-              <a class="contacts__phone" href="tel:+78007003030">8 800 700 30 30</a>
-              <p class="contacts__dropdown-work">График работы</p>
-            </address>
-          </header> <!-- ===/header-->
-          <div class="author__content-wrap">
-            <h1>Услуги</h1>
-          </div>
-          <nav class="breadcrumbs">
-            <ul class="breadcrumbs__list">
-              <li class="breadcrumbs__item breadcrumbs__item-wand">
-                <a href="index.html" class="breadcrumbs__link">Главная</a>
-              </li>
-              <li class="breadcrumbs__item breadcrumbs__item--active">
-                <a href="services.html" class="breadcrumbs__link breadcrumbs__link--active">Услуги</a>
-              </li>
-            </ul>
-          </nav>
-        </div> <!-- =========================/container================================-->
-      </div> <!-- =========================/bg-service=================================-->
+          </div> <!-- =========================/container================================-->
+        </div> <!-- =========================/bg-service=================================-->
+      </div>
         
       <div class="container">
         <section class="services">
@@ -84,7 +89,7 @@
       </div>
   </div> <!-- ========================/wrap__content=================================--> 
 
-        
+        <div class="bg-dark">
           <footer class="footer-wrap bg-dark">
             <div class="container">>
             <div class="container">
@@ -113,7 +118,8 @@
             </div>  
             </div> <!-- =========================/container=================================-->
           </footer> <!-- ===========================/footer=============================-->
-    </div>  <!-- ==================================/wrap bg-dark=================================-->  
+        </div>
+        
 
 </body>
 

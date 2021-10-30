@@ -3,6 +3,17 @@
   justify-content: space-between;
   align-items: center;
   color: #fff;
-  margin-bottom: 110px;
+  margin-bottom: 100px;
   padding-top: 41px
 }
+
+.header__column {
+  display: flex;
+  align-items: center;
+}
+
+.header__column--align--right {
+  justify-content: flex-end;
+}
+
+

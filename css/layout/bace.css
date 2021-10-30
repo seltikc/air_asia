@@ -20,44 +20,34 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.bg-dark {
-  background-color: #001821;
-}
 
 .bg-1 {
-  background-image: url("../../image/bg/bg1.jpg");
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-size: cover;
+  background: #001821 url("../../image/bg/bg1.jpg") center top no-repeat;
 }
 
 .bg-2 {
-  background-image: url("../../image/bg/bg2.jpg");
-  background-repeat: no-repeat;
-  background-position: center bottom;
+  background: #001821 url("../../image/bg/bg2.jpg") center top no-repeat;;
 }
 
 .bg-service {
-  background: url("../../image/bg/headline.jpg") center top no-repeat;
-  min-height: 412px;
+  background: #001821 url("../../image/bg/headline.jpg") center top no-repeat;
 }
 
-.wrap {
-  overflow: hidden;
-  min-width: 1100px;
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
+.bg-dark {
+  background: #001821;
 }
 
 .wrap__content {
-  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  min-width: 1250px;
+  overflow: hidden;
 }
 
 .container {
   max-width: 1170px;
   margin: 0 auto;
-  padding: 0px 15px;
 }
 
 ul {

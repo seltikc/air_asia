@@ -1,3 +1,8 @@
+.footer-wrap {
+  margin-top: auto;
+  min-height: 100%;
+}
+
 .footer-container__content {
   border-top: 1px solid rgba(255, 255, 255, .10);
 }
@@ -10,6 +15,16 @@
   padding-top: 47px;
   padding-bottom: 47px;
 }
+
+.footer__col {
+  display: flex;
+  align-items: center;
+}
+
+.footer__col--align--right {
+align-items: flex-end;
+}
+
 .menu__list-footer {
   display: flex;
   margin-right: 115px;
