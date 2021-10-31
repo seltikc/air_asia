@@ -3,7 +3,6 @@
   display: flex;
   flex-direction: column;
   font-style: normal;
-  margin-right: 30px;
 }
 
 .contacts__phone {
@@ -17,7 +16,7 @@
   text-align: right;
   text-decoration: underline;
   transition: 0.3s ease;
-  color: #98A4A8;
+  color: #98A4A8;;
 }
 
 .contacts span:hover {

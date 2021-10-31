@@ -25,12 +25,14 @@
 
 .tours__list {
   display: flex;
-  justify-content: space-between;
 }
 
 .tour__item {
-  width: calc(100% / 3 - 28px);
-  
+  margin-right: 27px;
+}
+
+.tour__item:nth-child(3n) {
+  margin-right: 0px;
 }
 
 .offer {
@@ -109,7 +111,7 @@
 .tour-wrap-btn {
   display: flex;
   margin-top: auto;
-  margin-bottom: 25px;
+  margin-bottom: 26px;
 }
 
 .tour-btn {
