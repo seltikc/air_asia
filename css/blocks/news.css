@@ -38,7 +38,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  padding: 25px 32px;
+  padding: 20px 30px 48px;
   min-height: 125px;
 }
 
@@ -49,10 +49,9 @@
 .single-news__subtitle {
   font-size: 24px;
   font-weight: 700;
-  margin-top: 15px;
   letter-spacing: 1px;
 }
 
 .single-news__text {
-  margin-top: 6px;
+  margin: 0;
 }

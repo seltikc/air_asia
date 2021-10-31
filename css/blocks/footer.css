@@ -12,8 +12,8 @@
   justify-content: space-between;
   align-items: center;
   color: #fff;
-  padding-top: 47px;
-  padding-bottom: 47px;
+  padding-top: 40px;
+  padding-bottom: 45px;
 }
 
 .footer__col {
@@ -21,8 +21,8 @@
   align-items: center;
 }
 
-.footer__col--align--right {
-align-items: flex-end;
+.footer__col--align--right address  {
+  align-items: flex-end;
 }
 
 .menu__list-footer {
@@ -38,6 +38,3 @@ align-items: flex-end;
   text-align: right;
 }
 
-.contacts__footer-phone {
-  margin-top: 10px;
-}
