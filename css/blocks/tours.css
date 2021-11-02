@@ -3,7 +3,6 @@
   font-size: 36px;
   font-weight: 700;
   margin-bottom: 50px;
-  letter-spacing: 2px;
 }
 
 .tours__title {
@@ -70,7 +69,6 @@
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 7px;
-  letter-spacing: 1px;
 }
 
 .service {
@@ -111,7 +109,7 @@
 .tour-wrap-btn {
   display: flex;
   margin-top: auto;
-  margin-bottom: 26px;
+  margin-bottom: 23px;
 }
 
 .tour-btn {
@@ -122,7 +120,7 @@
 
   color: #F5170E;
 
-  padding: 18px 28px;
+  padding: 18px 31px;
   transition: 0.3s ease;
 }
 

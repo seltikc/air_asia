@@ -1,18 +1,19 @@
 .page-content {
   background: #fff;
   color: #303030;
-  padding: 40px 0;
+  padding-top: 100px;
+  padding-bottom: 26px;
 }
 
 .services {
-  margin-bottom: 65px;
+  margin-bottom: 12px;
 }
 
 .services__item {
   display: flex;
-  padding: 20px 20px;
   text-decoration: none;
   color: #303030;
+  padding-bottom: 53px;
 }
 
 .services-block {
@@ -21,7 +22,7 @@
 
 .services__img {
   width: 40%;
-  margin-right: 7%;
+  margin-right: 5.2%;
 }
 
 .services__content {
@@ -31,8 +32,9 @@
 .services__title {
   font-size: 36px;
   font-weight: 700;
-  margin-bottom: 28px;
+  margin-bottom: 31px;
   color: #000;
+  margin-top: 10px;
 }
 
 .services__desc {

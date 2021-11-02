@@ -3,8 +3,12 @@
   justify-content: space-between;
   align-items: center;
   color: #fff;
-  margin-bottom: 115px;
+  margin-bottom: 117px;
   padding-top: 52px;
+}
+
+.header-services {
+  margin-bottom: 87px;
 }
 
 .header__column {

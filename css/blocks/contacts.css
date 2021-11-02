@@ -11,15 +11,6 @@
   color: #fff;
 }
 
-.contacts span {
-  font-size: 13px;
-  text-align: right;
-  text-decoration: underline;
-  transition: 0.3s ease;
-  color: #98A4A8;;
-}
 
-.contacts span:hover {
-  color: #fff;
-  cursor: pointer;
-}
+
+

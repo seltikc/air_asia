@@ -15,7 +15,7 @@
       <div class="top-line">
         <div class="bg-service">
           <div class="container top-line__container">
-            <header class="header">
+            <header class="header header-services">
               <div class="header__column">
                   <a href="index.html" class="logo">
                     <img class="logo__img" src="image/logo.png" alt="Logo">
@@ -31,11 +31,23 @@
                 <div class="header__column header__column--align--right">
                   <address class="contacts">
                     <a class="contacts__phone" href="tel:+78007003030">8 800 700 30 30</a>
-                    <span>График работы</span>
+                    <div class="dropdown">
+                      <a class="dropdown__link" href="#">График работы</a>
+                      <div class="dropdown__menu">
+                        <ul class="dropdown__list">
+                          <li class="dropdown__item">
+                            <span class="dropdown__item-time">пн-вс: 09:00 - 20:00</span>
+                          </li>
+                          <li class="dropdown__item">
+                            <span>Обед: 14:00-14:30</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
                   </address>
                 </div>
             </header> 
-            <div class="author__content-wrap">
+            <div class="author__content-wrap author__content-services">
               <h1>Услуги</h1>
             </div>
             <nav class="breadcrumbs">
@@ -71,7 +83,7 @@
                     <img class="services__img-waterfall" src="image/monkeys.jpg" alt="waterfall">
                   </div>
                   <div class="services__content">
-                    <h2 class="services__title">Водопад Янг-бей</h2>
+                    <h2 class="services__title">Остров обезьян</h2>
                     <div class="services__desc">
                       <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей.</p>
                     </div>
@@ -79,7 +91,7 @@
                   </div>
               </li>
             </ul>
-            <div class="paginator">
+            <div class="paginator paginator-services">
               <div class="paginator__display paginator__display-services">Страница 1 из 7</div>
               <ul class="paginator__list paginator__list-services">
                 <li class="paginator__item paginator__item--active"><a class="paginator__link" href="">1</a></li>
@@ -145,7 +157,7 @@
         <div class="container">
           <div class="footer footer-container__section">
             <div class="footer__col">
-              <a href="#" class="logo">
+              <a href="index.html" class="logo">
                 <img class="logo__img" src="image/logo.png" alt="Logo">
               </a>
               <nav class="menu">
@@ -159,12 +171,12 @@
             
             <div class="footer__col footer__col--align--right">
               <ul class="socials ">
-                <li class="socials__item socials__item--icon--telega"><a href="" class="socials__link"></a></li>
-                <li class="socials__item socials__item--icon--vk"><a href="" class="socials__link"></a></li>
-                <li class="socials__item socials__item--icon--fb"><a href="" class="socials__link"></a></li>
-                <li class="socials__item socials__item--icon--insta"><a href="" class="socials__link"></a></li>
+                <li class="socials__item"><a href="" class="socials__link socials__link--icon--telega"></a></li>
+                <li class="socials__item"><a href="" class="socials__link socials__link--icon--vk"></a></li>
+                <li class="socials__item"><a href="" class="socials__link socials__link--icon--fb"></a></li>
+                <li class="socials__item"><a href="" class="socials__link socials__link--icon--insta"></a></li>
               </ul>
-              <address class="contacts contacts-footer">
+              <address class="contacts">
                 <p class="contacts__dropdown-work contacts__footer-work">Бесплатный звонок по России</p>
                 <a class="contacts__phone contacts__footer-phone" href="tel:+78007003030">8 800 700 30 30</a>
               </address>

@@ -30,7 +30,8 @@ body {
 }
 
 .bg-service {
-  background: #001821 url("../../image/bg/headline.jpg") center top no-repeat;
+  background: #001821 url("../../image/bg/headline.jpg") center right no-repeat;
+  background-size: cover;
 }
 
 .bg-dark {
