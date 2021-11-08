@@ -14,6 +14,15 @@
   margin-top: 88px;
 }
 
+.section__reviews {
+  margin-top: 0px;
+  margin-bottom: 57px;
+}
+
+.inner-section-reviews {
+  margin-top: 0px;
+}
+
 .partners {
   display: flex;
   flex-wrap: wrap;

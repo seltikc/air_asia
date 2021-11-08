@@ -22,8 +22,14 @@
 @import url("./blocks/topline.css");
 @import url("./blocks/parthers.css");
 
+/*Reviews*/
+@import url("./blocks/reviews.css");
+@import url("./blocks/separator.css");
+@import url("./blocks/form.css");
+
 /*Welcome*/
 @import url("./blocks/welcome.css");
+
 
 
 

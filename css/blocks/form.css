@@ -1,0 +1,97 @@
+.inner-section-reviews {
+  padding-top: 61px;
+}
+
+.form {
+  padding-bottom: 100px;
+}
+
+.form__row {
+  display: flex;
+  margin-bottom: 29px;
+}
+
+.form__input {
+  flex: 1;
+  margin-right: 30px;
+  border-radius: 4px;
+  border: none;
+  background: #fff;
+  padding: 24px 26px;
+  font-size: 18px;
+  color: #1A1B1E;
+}
+
+.form__input::placeholder {
+  color: #666666;
+}
+
+.form__input:last-child {
+  margin-right: 0;
+}
+
+.form__input--textarea {
+  height: 235px;
+}
+
+.form__controls {
+  display: flex;
+  margin-bottom: 7px;
+}
+
+.form__controls-title {
+  width: 38%;
+}
+
+.controls {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.controls__item {
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.controls__elem {
+  cursor: pointer;
+}
+
+.controls__checkbox:checked ~ .controls__tag {
+  background: #B9EAE4;
+}
+
+.controls__checkbox {
+  display: none;
+}
+
+.form__btns {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn--color-black {
+  background: #8E8E8E;
+  transition: 0.2s linear;
+}
+
+.btn--color-black:hover {
+  background: #2B2B2B;
+}
+
+.btn--color-red {
+  transition: 0.2s linear;
+}
+
+.btn--color-red:hover {
+  background: #DA0100;
+}
+
+.form__btn {
+  margin-right: 25px;
+}
+
+.form__btn:last-child {
+  margin-right: 0;
+} 
